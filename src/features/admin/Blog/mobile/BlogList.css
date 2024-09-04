@@ -1,0 +1,82 @@
+.blog-label {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.searchField {
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.drawerHeader {
+  padding: 16px 16px 0 16px;
+  font-weight: 800;
+  color: #4f4a49;
+}
+
+.drawerListItem {
+  padding-left: 2px;
+  padding-bottom: 16px;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cardContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.blogHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blogTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #645e5c;
+}
+
+.blogStatus {
+  font-size: 16px;
+  font-weight: 600;
+  color: #645e5c;
+}
+
+.blogDetails {
+  font-size: 13px;
+  font-weight: 500;
+  color: Grey;
+  margin-bottom: 8px;
+}
+
+.blogDetailSpan {
+  color: #555;
+}
+
+.cardActions {
+  display: flex;
+  margin-top: -8px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 15px;
+}
+
+.cardButton {
+  border-radius: 20px;
+  text-transform: capitalize;
+  padding: 5px 28px;
+}
+
